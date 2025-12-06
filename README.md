@@ -1,0 +1,85 @@
+# Location Tracking Module – Flutter
+
+This project implements a real-time location tracking feature using `flutter_map`, `geolocator`, `geocoding`, and `GetX` for state management. The application continuously listens to the user’s location, converts latitude-longitude to a readable address, stores history, and follows MVVM architecture.
+
+---
+
+## 🚀 Features
+- Permission handling (fine + coarse)
+- Real-time GPS location
+- Reverse Geocoding (City, Pin, State)
+- Automatic UI updates
+- Location history with timestamps
+- Clean MVVM architecture
+- State stored only in memory
+
+---
+
+## 🧩 Packages Used
+
+| Package | Purpose |
+|--------|---------|
+| geolocator | Real-time GPS updates |
+| geocoding | Convert coordinates → address |
+| flutter_map | Display map using OpenStreetMap |
+| GetX | State management & MVVM |
+
+---
+
+## 📍 Why flutter_map instead of Google Maps?
+- Completely open-source
+- No API key required
+- Lightweight and fast
+- Uses OpenStreetMap tiles
+- Easier integration
+
+---
+
+## 🛰 How Location Works
+1. Request permissions
+2. Fetch current GPS location
+3. Listen to movement stream
+4. Convert coordinates to address
+5. Push updates to UI using GetX
+6. Maintain history list
+
+---
+
+## 📦 Architecture (MVVM)
+```text
+lib/
+├── controllers/
+│   ├── location_controller.dart
+│   └── theme_controller.dart
+├── core/
+│   ├── constants/
+│   └── services/
+├── models/
+│   └── user_location.dart
+├── views/
+│   ├── widgets/
+│   └── home_screen.dart
+└── main.dart
+
+- Model → location data
+- Controller → business logic and streams
+- View → UI + map
+
+---
+
+## 🧠 How my experience helped
+
+I have previously worked with Flutter, GetX, and real-time location based apps, which helped me:
+- write clean MVVM structure
+- implement continuous GPS listening
+- manage state without unnecessary rebuilds
+- format and display address using reverse geocoding
+- use `flutter_map` effectively instead of Google APIs
+
+My experience allowed faster implementation and better architectural decisions.
+
+
+
+No Google Maps API was used. Everything is achieved with flutter_map, geolocator, and geocoding.
+
+
