@@ -65,6 +65,7 @@ lib/
 - Controller → business logic and streams
 - View → UI + map
 
+```
 ---
 
 ## 🧠 How my experience helped
@@ -81,5 +82,18 @@ My experience allowed faster implementation and better architectural decisions.
 
 
 No Google Maps API was used. Everything is achieved with flutter_map, geolocator, and geocoding.
+
+## Screenshots
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/83bd6a30-a237-4fcb-886c-88b372c8e4c7" width="200" />
+  <img src="https://github.com/user-attachments/assets/08a9ff13-3923-4760-82f8-b7375aa8a918" width="200" />
+  <img src="https://github.com/user-attachments/assets/75f892cd-2f50-4459-b4ce-f6c2b43646a4" width="200" />
+   <img src="https://github.com/user-attachments/assets/1bb7f73f-d574-4747-832c-b6ab8a2df07d" width="200" />
+</p>
+
+
+
+
+
 
 
