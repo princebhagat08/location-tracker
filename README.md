@@ -68,19 +68,6 @@ lib/
 ```
 ---
 
-## 🧠 How my experience helped
-
-I have previously worked with Flutter, GetX, and real-time location based apps, which helped me:
-- write clean MVVM structure
-- implement continuous GPS listening
-- manage state without unnecessary rebuilds
-- format and display address using reverse geocoding
-- use `flutter_map` effectively instead of Google APIs
-
-My experience allowed faster implementation and better architectural decisions.
-
-
-
 No Google Maps API was used. Everything is achieved with flutter_map, geolocator, and geocoding.
 
 ## Screenshots
